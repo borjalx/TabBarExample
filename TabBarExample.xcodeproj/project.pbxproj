@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24636B1621F8B13D00E3755A /* TVCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24636B1521F8B13D00E3755A /* TVCustom.swift */; };
 		247314F521EF7D0E008D279C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247314F421EF7D0E008D279C /* AppDelegate.swift */; };
 		247314F721EF7D0E008D279C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247314F621EF7D0E008D279C /* ViewController.swift */; };
 		247314FA21EF7D0E008D279C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247314F821EF7D0E008D279C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		247314FF21EF7D10008D279C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247314FD21EF7D10008D279C /* LaunchScreen.storyboard */; };
 		2473150A21EF7D10008D279C /* TabBarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473150921EF7D10008D279C /* TabBarExampleTests.swift */; };
 		2473151521EF7D10008D279C /* TabBarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473151421EF7D10008D279C /* TabBarExampleUITests.swift */; };
+		2473152321EF7F6C008D279C /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473152221EF7F6C008D279C /* Personaje.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24636B1521F8B13D00E3755A /* TVCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCustom.swift; sourceTree = "<group>"; };
 		247314F121EF7D0E008D279C /* TabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247314F421EF7D0E008D279C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		247314F621EF7D0E008D279C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		2473151021EF7D10008D279C /* TabBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2473151421EF7D10008D279C /* TabBarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExampleUITests.swift; sourceTree = "<group>"; };
 		2473151621EF7D10008D279C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2473152221EF7F6C008D279C /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personaje.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				247314FB21EF7D10008D279C /* Assets.xcassets */,
 				247314FD21EF7D10008D279C /* LaunchScreen.storyboard */,
 				2473150021EF7D10008D279C /* Info.plist */,
+				2473152221EF7F6C008D279C /* Personaje.swift */,
+				24636B1521F8B13D00E3755A /* TVCustom.swift */,
 			);
 			path = TabBarExample;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				247314F721EF7D0E008D279C /* ViewController.swift in Sources */,
+				2473152321EF7F6C008D279C /* Personaje.swift in Sources */,
+				24636B1621F8B13D00E3755A /* TVCustom.swift in Sources */,
 				247314F521EF7D0E008D279C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
